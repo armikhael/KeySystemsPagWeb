@@ -109,6 +109,11 @@ header.masthead {
 }
 
 
+.bg-video-1{
+    padding-left: 0px;
+}
+
+
 @media (min-width: 768px){
     .box-text{
        margin-bottom: -150px;
