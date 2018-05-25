@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto';
+}
+
+.text-center{
+    text-align: center;
+}
+
+header.masthead {
+    background: linear-gradient(#00345c,#09092b) !important;
+}
+
+#mainNav{
+    font-family: 'Roboto';
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    font-weight: 500;
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #fff;
+}
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #cccde8;
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #cccde8;
+}
