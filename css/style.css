@@ -26,8 +26,8 @@ p{
 .tex-justi{
     text-align: justify;
 }
-.fs40{
-    font-size: 40px!important;
+.pt50{
+    padding-top: 50px;
 }
 .fw300{
     font-weight: 300;
@@ -97,8 +97,11 @@ header.masthead {
     text-align: center;
 }
 .title-section{
-    font-size: 45px;
+    font-size: 35px;
     color: #484848;
+}
+.title-section2{
+    font-size: 35px
 }
 .sub-title-section{
     color: #696767;
@@ -115,6 +118,17 @@ header.masthead {
     padding-left: 0px;
 }
 
+.carousel-control-prev{
+    margin-top: 50px;
+    margin-left: -0px;
+    width: 1%;
+}
+.carousel-control-next{
+    margin-top: 50px;
+    margin-right: -0px;
+    width: 1%;
+}
+
 
 @media (min-width: 768px){
     .box-text{
@@ -129,4 +143,75 @@ header.masthead {
     .tex-justi-center{
         text-align: justify;
     }
+    .title-section{
+        font-size: 45px;
+    }
+    .title-section2{
+        font-size: 40px;
+    }
+}
+
+
+/*Footer nixon*/
+footer.mastfooter {
+    background: linear-gradient(#00345c,#09092b) !important;
+    padding-top: 4rem; 
+}
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+.social-circle a {
+    background-color: #fff;
+}
+.text-white {
+    color: #fff!important;
+}
+.form-control {
+    border-top: #fff;
+    border-left: #fff;
+    border-right: #fff;
+    background: transparent;
+    color: #fff;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff!important;
+    opacity: 1; /* Firefox */
+}
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    color: #09092b;
+}
+.pt40{
+    padding-top:40px;
+}
+.pt20{
+    padding-top: 20px;
+}
+.btn-enviar{
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-weight: 300;
 }
