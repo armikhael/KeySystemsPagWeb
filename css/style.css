@@ -6,6 +6,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto';
 }
 
+section {
+    padding: 4rem 0;
+}
+
+p{
+    color: #696767;
+}
+
 .img-res{
     max-width: 100%;
 }
@@ -14,6 +22,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .text-right{
     text-align: right
+}
+.tex-justi{
+    text-align: justify;
 }
 
 .fw300{
@@ -66,10 +77,49 @@ header.masthead {
     color: #cccde8;
 }
 
+.bg-gris{
+    background: #efefef;
+}
+.row-custon{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.bg-video-1{
+    padding-right: 0px;
+}
+.al-center{
+    text-align: center;
+    padding: 50px;
+}
+.tex-justi-center{
+    text-align: center;
+}
+.title-section{
+    font-size: 45px;
+    color: #484848;
+}
+.sub-title-section{
+    color: #696767;
+    font-weight: 300;
+}
+.btn-solicitar{
+    color: #696767!important;
+    border: 2px solid #bdbdbd;
+    border-radius: 5px;
+}
+
+
 @media (min-width: 768px){
     .box-text{
        margin-bottom: -150px;
        position: absolute;
        z-index: 999;
+    }
+    .al-center{
+        text-align: left;
+        padding: 100px;
+    }
+    .tex-justi-center{
+        text-align: justify;
     }
 }
