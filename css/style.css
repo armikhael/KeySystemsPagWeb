@@ -26,7 +26,9 @@ p{
 .tex-justi{
     text-align: justify;
 }
-
+.fs40{
+    font-size: 40px!important;
+}
 .fw300{
     font-weight: 300;
 }
