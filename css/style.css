@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto';
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,6 +15,9 @@ p{
     color: #696767;
 }
 
+.white{
+    color: #fff;
+}
 .img-res{
     max-width: 100%;
 }
@@ -214,4 +218,30 @@ ul.social-network li {
     border-radius: 5px;
     border: 1px solid #fff;
     font-weight: 300;
+}
+
+
+
+
+@media only screen and (max-width : 768px) {
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
 }

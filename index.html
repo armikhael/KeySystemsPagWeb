@@ -24,6 +24,8 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.css" rel="stylesheet">
 
+    <!-- Style -->
+    <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
   </head>
@@ -33,7 +35,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <a class="navbar-brand js-scroll-trigger revealOnScroll" data-animation="pulse" href="#page-top">
           <img src="img/logo.png" width="40px">
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,22 +44,22 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#init">INICIO</a>
+              <a class="nav-link js-scroll-trigger revealOnScroll" data-animation="fadeIn" href="#init">INICIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#pagweb">PÁGINA WEB</a>
+              <a class="nav-link js-scroll-trigger revealOnScroll" data-animation="fadeIn" href="#pagweb">PÁGINA WEB</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#tiendavirtual">TIENDAS VIRTUALES</a>
+              <a class="nav-link js-scroll-trigger revealOnScroll" data-animation="fadeIn" href="#tiendavirtual">TIENDAS VIRTUALES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#appmovil">APLICACIONES MÓVILES</a>
+              <a class="nav-link js-scroll-trigger revealOnScroll" data-animation="fadeIn" href="#appmovil">APLICACIONES MÓVILES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#consultasistema">CONSULTORÍA DE SISTEMAS</a>
+              <a class="nav-link js-scroll-trigger revealOnScroll" data-animation="fadeIn" href="#consultasistema">CONSULTORÍA DE SISTEMAS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#dominio">DOMINIO Y HOSTING</a>
+              <a class="nav-link js-scroll-trigger revealOnScroll" data-animation="fadeIn" href="#dominio">DOMINIO Y HOSTING</a>
             </li>
           </ul>
         </div>
@@ -67,11 +69,11 @@
     <header class="masthead text-white d-flex">
       <div class="container mt-auto">
         <div class="box-text">
-          <h1 class="text-uppercase fw300">
+          <h1 class="text-uppercase fw300 revealOnScroll" data-animation="fadeInLeft">
             PÁGINA WEB
           </h1>
           <br>
-          <a class="btn btn-header" href="https://getbootstrap.com/">Solicitar</a>
+          <a class="btn btn-header revealOnScroll" data-animation="flipInX" href="https://getbootstrap.com/">Solicitar</a>
         </div>
         <div class="row">
           <div class="col-lg-3"></div>
@@ -82,19 +84,32 @@
       </div>
     </header>
 
+    <!--<section style="background: #09092b;">
+      <div class="row">
+        <div class="container">
+          <div class="col-md-8 mx-auto text-center">
+            <img class="img-res revealOnScroll" data-animation="rubberBand" src="img/logo-color.png" alt="">
+            <br><br>
+            <h1 class="fw300 text-uppercase revealOnScroll white" data-animation="fadeInUp">Key Systems</h1>
+            <p class="revealOnScroll white" data-animation="fadeIn">Refleja tus ideas</p>
+          </div>
+        </div>
+      </div>
+    </section>-->
+
     <section class="bg-gris">
       <div class="row row-custon">
         <div class="col-md-6 al-center">
-          <h1 class="title-section">PÁGINA WEB</h1>
-          <h3 class="sub-title-section">Autoadministrable</h3>
+          <h1 class="title-section revealOnScroll" data-animation="fadeInLeft">PÁGINA WEB</h1>
+          <h3 class="sub-title-section revealOnScroll" data-animation="fadeInUp">Autoadministrable</h3>
           <br>
-          <p class="tex-justi-center">Una página web autoadministrable funciona mediante un CMS (Content Manager System), esto significa que podrás realizar cambios en el diseño, agregar o eliminar contenido y personalizar a tu gusto sin tener que depender de un tercero.</p>
+          <p class="tex-justi-center revealOnScroll" data-animation="fadeInLeft">Una página web autoadministrable funciona mediante un CMS (Content Manager System), esto significa que podrás realizar cambios en el diseño, agregar o eliminar contenido y personalizar a tu gusto sin tener que depender de un tercero.</p>
           <br>
-          <p class="tex-justi-center">Con una página web autoadministrable posees control total sobre lo que se publica en tu sitio web y lo que no. Además, el costo de mantenimiento es bastante bajo por lo que permite ahorrar dinero.</p>
+          <p class="tex-justi-center revealOnScroll" data-animation="fadeInLeftBig">Con una página web autoadministrable posees control total sobre lo que se publica en tu sitio web y lo que no. Además, el costo de mantenimiento es bastante bajo por lo que permite ahorrar dinero.</p>
           <br>
-          <a class="btn btn-solicitar">Solicitar</a>
+          <a class="btn btn-solicitar revealOnScroll" data-animation="flipInX">Solicitar</a>
         </div>
-        <div class="col-md-6 bg-video-1">
+        <div class="col-md-6 bg-video-1 revealOnScroll" data-animation="fadeInRight">
           <video width="100%" playsinline autoplay muted loop>
             <source src="img/video1.mp4" type="video/mp4">
           </video>
@@ -104,20 +119,20 @@
 
     <section>
       <div class="row row-custon">
-        <div class="col-md-6 bg-video-1">
+        <div class="col-md-6 bg-video-1 revealOnScroll" data-animation="fadeInLeft">
           <video width="100%" playsinline autoplay muted loop>
             <source src="img/video2.mp4" type="video/mp4">
           </video>
         </div>
         <div class="col-md-6 al-center">
-            <h1 class="title-section">TIENDAS VIRTUALES</h1>
-            <h3 class="sub-title-section">Autoadministrable</h3>
+            <h1 class="title-section revealOnScroll" data-animation="fadeInRight">TIENDAS VIRTUALES</h1>
+            <h3 class="sub-title-section revealOnScroll" data-animation="fadeInUp">Autoadministrable</h3>
             <br>
-            <p class="tex-justi-center">¿Alguna vez imaginaste poder agregar productos y configurar los métodos de pago de tu tienda? Si, esto es posible.</p>
-            <p class="tex-justi-center">Las tiendas virtuales autoadministrables te proporcionan un completo control sobre los productos que ofreces, el diseño, promoción de ofertas, descuentos y mucho más.</p>
-            <p class="tex-justi-center">¿Lo mejor? Es un DIY (Do it yourself). Ahorra tiempo y dinero mientras tomas el control de tu negocio.</p>
+            <p class="tex-justi-center revealOnScroll" data-animation="fadeInRight">¿Alguna vez imaginaste poder agregar productos y configurar los métodos de pago de tu tienda? Si, esto es posible.</p>
+            <p class="tex-justi-center revealOnScroll" data-animation="fadeInRightBig">Las tiendas virtuales autoadministrables te proporcionan un completo control sobre los productos que ofreces, el diseño, promoción de ofertas, descuentos y mucho más.</p>
+            <p class="tex-justi-center revealOnScroll" data-animation="fadeInRight">¿Lo mejor? Es un DIY (Do it yourself). Ahorra tiempo y dinero mientras tomas el control de tu negocio.</p>
             <br>
-            <a class="btn btn-solicitar">Solicitar</a>
+            <a class="btn btn-solicitar revealOnScroll" data-animation="flipInX">Solicitar</a>
           </div>
       </div>
     </section>
@@ -125,16 +140,16 @@
     <section class="bg-gris">
       <div class="row row-custon">
         <div class="col-md-6 al-center">
-          <h1 class="title-section fs40">APLICACIONES MÓVILES</h1>
-          <h3 class="sub-title-section">Conectadas a la Tienda Virtual</h3>
+          <h1 class="title-section fs40 revealOnScroll" data-animation="fadeInLeft">APLICACIONES MÓVILES</h1>
+          <h3 class="sub-title-section revealOnScroll" data-animation="fadeInUp">Conectadas a la Tienda Virtual</h3>
           <br>
-          <p class="tex-justi-center">Sincroniza toda la información de tu tienda virtual woocommerce en un solo lugar de forma instantánea.</p>
+          <p class="tex-justi-center revealOnScroll" data-animation="fadeInLeft">Sincroniza toda la información de tu tienda virtual woocommerce en un solo lugar de forma instantánea.</p>
           <br>
-          <p class="tex-justi-center">Catálogo de productos, ofertas, métodos de pago, todo en un solo lugar. Ahorra tiempo mientras disfrutas de las ventajas nuestra aplicación.</p>
+          <p class="tex-justi-center revealOnScroll" data-animation="fadeInLeftBig">Catálogo de productos, ofertas, métodos de pago, todo en un solo lugar. Ahorra tiempo mientras disfrutas de las ventajas nuestra aplicación.</p>
           <br>
-          <a class="btn btn-solicitar">Solicitar</a>
+          <a class="btn btn-solicitar revealOnScroll" data-animation="flipInX">Solicitar</a>
         </div>
-        <div class="col-md-6 bg-video-1">
+        <div class="col-md-6 bg-video-1 revealOnScroll" data-animation="fadeInRight">
           <video width="100%" playsinline autoplay muted loop>
             <source src="img/video3.mp4" type="video/mp4">
           </video>
@@ -144,17 +159,17 @@
 
     <section>
       <div class="row row-custon">
-        <div class="col-md-6 bg-video-1">
+        <div class="col-md-6 bg-video-1 revealOnScroll" data-animation="fadeInLeft">
           <img src="img/consultoria.png" width="100%" alt="">
         </div>
         <div class="col-md-6 al-center">
-            <h1 class="title-section">CONSULTORÍAS</h1>
-            <h3 class="sub-title-section">de Sistemas</h3>
+            <h1 class="title-section revealOnScroll" data-animation="fadeInLeft">CONSULTORÍAS</h1>
+            <h3 class="sub-title-section revealOnScroll" data-animation="fadeInUp">de Sistemas</h3>
             <br>
-            <p class="tex-justi-center">Brindamos la instalación, configuración, administración y mantenimiento de los sistemas web necesarios para poner en marcha su negocio.</p>
-            <p class="tex-justi-center">Además, realizamos asesoramientos en estrategias de promoción para comercios electrónicos en Internet.</p>
+            <p class="tex-justi-center revealOnScroll" data-animation="fadeInRight">Brindamos la instalación, configuración, administración y mantenimiento de los sistemas web necesarios para poner en marcha su negocio.</p>
+            <p class="tex-justi-center revealOnScroll" data-animation="fadeInRightBig">Además, realizamos asesoramientos en estrategias de promoción para comercios electrónicos en Internet.</p>
             <br>
-            <a class="btn btn-solicitar">Solicitar</a>
+            <a class="btn btn-solicitar revealOnScroll" data-animation="flipInX">Solicitar</a>
           </div>
       </div>
     </section>
@@ -162,13 +177,13 @@
     <section>
       <div class="row row-custon">
         <div class="col-md-6 al-center">
-          <h1 class="title-section fs40">DOMINIO HOSTING</h1>
+          <h1 class="title-section fs40 revealOnScroll" data-animation="fadeInLeft">DOMINIO HOSTING</h1>
           <br>
-          <p class="tex-justi-center">El primer paso para poner en marcha tu sitio web y además el más importante. Asegúrate de escoger un buen hosting y dominio ya que de esto dependerá el rendimiento de tu página, la velocidad de carga, el posicionamiento para los motores de búsqueda y además la resolución de incidencia en cuestiones que escapen de tus manos.</p>
+          <p class="tex-justi-center revealOnScroll" data-animation="fadeInLeft">El primer paso para poner en marcha tu sitio web y además el más importante. Asegúrate de escoger un buen hosting y dominio ya que de esto dependerá el rendimiento de tu página, la velocidad de carga, el posicionamiento para los motores de búsqueda y además la resolución de incidencia en cuestiones que escapen de tus manos.</p>
           <br>
-          <a class="btn btn-solicitar">Solicitar</a>
+          <a class="btn btn-solicitar revealOnScroll" data-animation="flipInX">Solicitar</a>
         </div>
-        <div class="col-md-6 bg-video-1">
+        <div class="col-md-6 bg-video-1 revealOnScroll" data-animation="fadeInRight">
           <img src="img/dominio.png" width="100%" alt="">
         </div>
       </div>
@@ -177,49 +192,51 @@
     <section class="bg-gris">
       <div class="container">
         <br>
-        <h1 class="title-section fs40 text-center">ALGUNOS CLIENTES</h1>
+        <h1 class="title-section fs40 text-center revealOnScroll" data-animation="fadeInUp">ALGUNOS CLIENTES</h1>
         <br>
-        <div id="carouselExampleControls" class="carousel slide pt50" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row"> 
-                <div class="col-md-2 mx-auto">
-                  <img width="100%" src="img/clientes/1.png" alt="">
+        <div class="revealOnScroll" data-animation="fadeInUp">
+          <div id="carouselExampleControls" class="carousel slide pt50" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row"> 
+                  <div class="col-md-2 mx-auto">
+                    <img width="100%" src="img/clientes/1.png" alt="">
+                  </div>
+                  <div class="col-md-2 mx-auto">
+                    <img width="100%" src="img/clientes/2.png" alt="">
+                  </div>
+                  <div class="col-md-2 mx-auto">
+                    <img width="100%" src="img/clientes/3.png" alt="">
+                  </div>
+                  <div class="col-md-2 mx-auto">
+                    <img width="100%" src="img/clientes/4.png" alt="">
+                  </div>
                 </div>
-                <div class="col-md-2 mx-auto">
-                  <img width="100%" src="img/clientes/2.png" alt="">
-                </div>
-                <div class="col-md-2 mx-auto">
-                  <img width="100%" src="img/clientes/3.png" alt="">
-                </div>
-                <div class="col-md-2 mx-auto">
-                  <img width="100%" src="img/clientes/4.png" alt="">
+              </div>
+              <div class="carousel-item">
+                <div class="row"> 
+                  <div class="col-md-2 mx-auto">
+                    <img width="100%" src="img/clientes/5.png" alt="">
+                  </div>
+                  <div class="col-md-2 mx-auto">
+                    <img width="100%" src="img/clientes/6.png" alt="">
+                  </div>
+                  <div class="col-md-2 mx-auto">
+                    <img width="100%" src="img/clientes/7.jpg" alt="">
+                  </div>
+                  <div class="col-md-2 mx-auto">
+                    <img width="100%" src="img/clientes/8.png" alt="">
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="row"> 
-                <div class="col-md-2 mx-auto">
-                  <img width="100%" src="img/clientes/5.png" alt="">
-                </div>
-                <div class="col-md-2 mx-auto">
-                  <img width="100%" src="img/clientes/6.png" alt="">
-                </div>
-                <div class="col-md-2 mx-auto">
-                  <img width="100%" src="img/clientes/7.jpg" alt="">
-                </div>
-                <div class="col-md-2 mx-auto">
-                  <img width="100%" src="img/clientes/8.png" alt="">
-                </div>
-              </div>
-            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <i class="fa fa-angle-left" aria-hidden="true" style="    font-size: 40px;color: #000;"></i>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <i class="fa fa-angle-right" aria-hidden="true" style="    font-size: 40px;color: #000;"></i>
+            </a>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <i class="fa fa-angle-left" aria-hidden="true" style="    font-size: 40px;color: #000;"></i>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <i class="fa fa-angle-right" aria-hidden="true" style="    font-size: 40px;color: #000;"></i>
-          </a>
         </div>
       </div>
     </section>
@@ -228,10 +245,10 @@
       <div class="container my-auto">
         <div class="row">
           <div class="col-md-6 pt100">
-            <h2 class="section-heading text-uppercase text-left">contactanos</h2><br>
-            <p class="title-pages-1" style="color:#fff">Se el primero en experimentar con KeySystem<br>
+            <h2 class="section-heading text-uppercase text-left revealOnScroll" data-animation="fadeInLeft">contactanos</h2><br>
+            <p class="title-pages-1 revealOnScroll" data-animation="fadeInLeft" style="color:#fff">Se el primero en experimentar con KeySystem<br>
                                     Deja tu información, nos pondremos en contacto contigo. </p><br><br>
-            <div class="row">
+            <div class="row revealOnScroll" data-animation="fadeInLeft">
               <div class="col-md-1 icon-contac">
                 <i class="fa fa-phone" aria-hidden="true"></i>
               </div>
@@ -239,7 +256,8 @@
                 +57 322 513 5872
               </div>
             </div>
-            <div class="row">
+            <br>
+            <div class="row revealOnScroll" data-animation="fadeInLeft">
               <div class="col-md-1 icon-contac">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
               </div>
@@ -249,7 +267,7 @@
             </div>
           </div>
         
-          <div class="col-md-6 pt100">
+          <div class="col-md-6 pt100 revealOnScroll" data-animation="fadeInRight">
             <form id="contactForm" name="sentMessage" action="mail/contact_me.php" method="POST">
               <div class="row">
                 <div class="col-md-12 pt20">
@@ -285,16 +303,16 @@
             </form>                
           </div>
 
-            <div class="col-md-12 text-center pt40">
-                <ul class="social-network social-circle">
-                      
-                    <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" class="icoGoogle" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                </ul>
-            </div>
+          <div class="col-md-12 text-center pt40 revealOnScroll" data-animation="shake">
+              <ul class="social-network social-circle">
+                    
+                  <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#" class="icoGoogle" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+          </div>
 
-          <div class="col-md-12 text-center pt40">
+          <div class="col-md-12 text-center pt40 revealOnScroll" data-animation="bounceIn">
             <img width="30px" class="text-center" src="img/logo.png" hspace="5" vspace="5" style="float: none;">
             Todos los derechos reservados 2014 © | Desarrollado por Key Systems, C.A.
           </div>
@@ -304,7 +322,10 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/parallax/jquery.parallax.js"></script>
+    <script src="vendor/parallax/index.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
@@ -314,6 +335,8 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+
+    <script  src="vendor/animate.css/index.js"></script>
 
   </body>
 
