@@ -9,6 +9,7 @@
     <meta name="author" content="">
 
     <title>Key Systems</title>
+    <link rel="shortcut icon" href="img/logo-color.png">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +45,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger revealOnScroll" data-animation="fadeIn" href="#init">INICIO</a>
+              <a class="nav-link js-scroll-trigger revealOnScroll" data-animation="fadeIn" href="#page-top">INICIO</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger revealOnScroll" data-animation="fadeIn" href="#pagweb">PÁGINA WEB</a>
@@ -66,7 +67,7 @@
       </div>
     </nav>
 
-    <header class="masthead text-white d-flex">
+    <header class="masthead text-white">
       <div class="container mt-auto">
         <div class="box-text">
           <h1 class="text-uppercase fw300 revealOnScroll" data-animation="fadeInLeft">
@@ -75,10 +76,57 @@
           <br>
           <a class="btn btn-header revealOnScroll" data-animation="flipInX" href="https://getbootstrap.com/">Solicitar</a>
         </div>
-        <div class="row">
-          <div class="col-lg-3"></div>
-          <div class="col-lg-9 text-right">
-            <img class="img-res" width="100%" src="img/header/table.png" alt="">
+        <img class="img-res display-block" width="100%" src="img/home.png" alt="">
+        <div class="row">  
+          <div class="col-lg-2"></div>
+          <div class="col-lg-10 text-right display-none">
+            <div style="margin-left: -150px;" id="parallax">
+              <div class="revealOnScroll" data-animation="zoomIn">
+                <div class="layer" data-depth="0.1" >
+                  <img class="img-res some-space himg-1" width="100%" src="img/header/table.png" alt="">
+                </div>
+              </div>
+              <div class="revealOnScroll" data-animation="fadeInRight">
+                <div class="layer" data-depth="0.3">
+                  <img class="img-res some-space himg-2" src="img/header/planta.png" alt="">
+                </div>
+              </div>
+              <div class="revealOnScroll" data-animation="fadeInLeft">
+                <div class="layer" data-depth="0.2">
+                  <img class="img-res some-space himg-3" src="img/header/teclado.png" alt="">
+                </div>
+              </div>
+              <div class="revealOnScroll" data-animation="rotateInDownLeft">
+                <div class="layer" data-depth="0.2">
+                  <img class="img-res some-space himg-4" src="img/header/raton.png" alt="">
+                </div>
+              </div>
+              <div class="revealOnScroll" data-animation="fadeInLeft">
+                <div class="layer" data-depth="0.3">
+                    <img class="img-res some-space himg-6" src="img/header/pantalla2.png" alt="">
+                </div>
+              </div>
+              <div class="revealOnScroll" data-animation="fadeInRight">
+                <div class="layer" data-depth="0.4">
+                  <img class="img-res some-space himg-5" src="img/header/pantalla1.png" alt="">
+                </div>
+              </div>
+              <div class="revealOnScroll" data-animation="bounceInLeft">
+                <div class="layer" data-depth="0.1">
+                    <img class="img-res some-space himg-9" src="img/header/pantalla5.png" alt="">
+                </div>
+              </div>
+              <div class="revealOnScroll" data-animation="fadeInRight">
+                <div class="layer" data-depth="0.2">
+                  <img class="img-res some-space himg-7" src="img/header/pantalla4.png" alt="">
+                </div>
+              </div>
+              <div class="revealOnScroll" data-animation="rollIn">
+                <div class="layer" data-depth="0.3">
+                    <img class="img-res some-space himg-8" src="img/header/pantalla3.png" alt="">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -97,7 +145,7 @@
       </div>
     </section>-->
 
-    <section class="bg-gris">
+    <section class="bg-gris" id="pagweb">
       <div class="row row-custon">
         <div class="col-md-6 al-center">
           <h1 class="title-section revealOnScroll" data-animation="fadeInLeft">PÁGINA WEB</h1>
@@ -118,7 +166,7 @@
     </section>
 
     <section>
-      <div class="row row-custon">
+      <div class="row row-custon" id="tiendavirtual">
         <div class="col-md-6 bg-video-1 revealOnScroll" data-animation="fadeInLeft">
           <video width="100%" playsinline autoplay muted loop>
             <source src="img/video2.mp4" type="video/mp4">
@@ -137,7 +185,7 @@
       </div>
     </section>
 
-    <section class="bg-gris">
+    <section class="bg-gris" id="appmovil">
       <div class="row row-custon">
         <div class="col-md-6 al-center">
           <h1 class="title-section fs40 revealOnScroll" data-animation="fadeInLeft">APLICACIONES MÓVILES</h1>
@@ -157,7 +205,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="consultasistema">
       <div class="row row-custon">
         <div class="col-md-6 bg-video-1 revealOnScroll" data-animation="fadeInLeft">
           <img src="img/consultoria.png" width="100%" alt="">
@@ -174,7 +222,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="dominio">
       <div class="row row-custon">
         <div class="col-md-6 al-center">
           <h1 class="title-section fs40 revealOnScroll" data-animation="fadeInLeft">DOMINIO HOSTING</h1>
